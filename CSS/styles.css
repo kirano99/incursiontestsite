@@ -1,0 +1,498 @@
+body{
+    display: block;
+    background-color: black;
+    overflow:scroll;
+    overflow-x:hidden;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+@font-face {
+	font-family: 'GothamBook';
+	src: url('../Fonts/GothamBook.eot');
+	src: local('GothamBook'), url('../Fonts/GothamBook.woff') format('woff'), url('/Fonts/GothamBook.ttf') format('truetype');
+}
+
+body {
+	font-family: 'GothamBook' !important;
+    font-size: 17px
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.navclass{
+    width:690px; 
+    height: auto;  
+    position:fixed;
+    left:50%;
+    right:50%;
+    transform:translate(-49%, 210%);
+    position: fixed;
+    z-index: 999;
+
+    }
+.button{
+    
+    background-color: #e11d22;
+    color: white;
+    padding: 20px 46px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-table;
+    height:auto;
+}
+
+.bar-item:hover{
+    background-color: darkred;
+}
+
+.button:hover{
+    text-shadow:1px 0px #555;
+  -moz-transform:scale(1.08); 
+  -webkit-transform:scale(1.08);
+  -o-transform:scale(1.08);
+}
+
+a{
+    text-decoration:none;
+}
+
+.textlogo{
+    width:600px; 
+    height: auto;  
+    position:fixed;
+    left:50%;
+    right:50%;
+    transform:translate(-50%, -5%);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+.textlogo1{
+    width:600px; 
+    height: auto;  
+    position:fixed;
+    left:50%;
+    right:50%;
+    transform:translate(-50%, -5%);
+    position: fixed;
+    z-index: 999;
+}
+.video-background {
+  background: #000;
+  position: relative;
+  top: 0 ; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+.video-foreground,.video-background iframe {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events:all;
+}
+
+.musicvid{
+    z-index: 1;
+}
+
+section{
+    background-size:auto;
+    height:100vh;
+    width: 100vw;
+    display: table;
+}
+
+h1{
+    color: white;
+    font-size: 40pt;
+    color: #e11d22;
+    margin: 0;
+}
+
+
+#scroller_content_one{
+    
+    position: relative;
+    background-size: cover;
+    background-color: black;
+    height: 400px;
+}
+
+#Text_One{
+text-align: center;
+display: table-cell;
+vertical-align: middle;  
+}
+#smallertext{
+    font-size: 35pt ;
+}
+#coverpicture{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+#smalllogobottom{
+    width:500px; 
+    height: auto;  
+    position:fixed;
+    left:50%;
+    right: 50%;
+    transform:translate(-50%, 0%);
+    position: relative;
+    z-index: 999;
+}
+#smallscroll{
+    position: relative;
+    background-size: cover;
+    background-color: black;
+    height: 0;
+}
+h3{
+color: white;
+text-align: center;
+vertical-align: middle; 
+    margin: 0;
+}
+
+#simple-menu{
+    position: fixed;
+    z-index: 999;
+   padding: 0;
+    margin: 0;
+}
+#menuimg{
+    height: auto; 
+    width: auto; 
+    max-width: 50px; 
+    max-height: 50px;
+}
+
+#playbutton{
+    padding: 50px
+}
+
+canvas{
+    position: absolute;
+    z-index:100;
+    background-color:transparent;
+    margin: 0px;
+    top: 200px;
+    left: 50px;
+    z-index: 100;
+    float: left;
+}
+
+
+#controls {
+    overflow: hidden;
+    background-color:  #e11d22;
+    height: 1000px;
+    position: absolute;
+    top: 200px;
+    Right: 400px;
+    margin: 0px;
+    z-index: 3;
+    width: 400px;
+    float: right;
+    border:1px solid #ffffff;
+}
+#selection{
+    margin: 0px;
+    position: relative;
+    left: 500px;
+    top: 130px
+}
+#custtitle{
+    margin: 0px;
+
+}
+h4{
+    margin: 7px;
+    font-size: 14pt;
+    color: white;
+    position: relative;
+    Right: 450px;
+    Top: -100px;
+
+}
+select{
+    width: 175px;
+    margin: 0px;
+    position: relative;
+    Right: 450px;
+    Top: -100px;
+}
+#custom{
+    position: relative;
+    top:20px
+}
+
+.hiddenColor {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+#colourchange{
+    position: relative;
+    right: 177px;
+    top: 28px;
+}
+
+#map{
+    margin: 50px;
+}
+
+
+
+		.products{
+			list-style:none;
+			margin-right:300px;
+			padding:0px;
+			height:100%;
+            position: relative;
+            top: 800px;
+		}
+		.products li{
+			display:inline-block;
+			float:left;
+			margin:10px;
+		}
+#storewelcome{
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    top: 0px;
+    z-index: 999;
+    
+}
+		.item{
+			display:block;
+			text-decoration:none;
+            border: 2px solid #e11d22;
+		}
+		.item p{
+			margin:0;
+			font-weight:bold;
+			text-align:center;
+			color:#c3c3c3;
+		}
+		.cart{
+			position:fixed;
+			right:0;
+			top:142px;
+			width:280px;
+			height:100%;
+			background:#e11d22;
+			padding:0px 10px;
+		}
+h2{
+    position:absolute;
+    font-size:16px;
+    left:10px;
+    bottom:20px;
+    color:#555;
+}
+		.total{
+			margin:0;
+			text-align:right;
+			padding-right:20px;
+            color: white;
+		}
+
+#cartcontent{
+    background-color: #e11d22;
+    color: #e11d22;
+}
+
+thead{
+    background-color: #e11d22;
+}
+
+svg{
+    float: left;
+    position: relative;
+    top: 90px;
+    left: 50px;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+svg #head{
+   fill:#fff;
+}
+
+svg #eyes{
+    fill:#FF0245;
+}
+
+svg #path0{
+    fill:black;
+}
+
+#AlbumCanvas{
+    letter-spacing: 0;
+    border: 1px solid white;
+
+}
+
+#AddCustomToCart{
+    position: relative;
+    top: 50px;
+    left: 50px
+}
+
+#colourchange{
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+#inputtitle{
+    position: relative;
+    left: 30px;
+}
+
+.flip {
+    height: 300px;
+    width: 300px;
+    margin: 0;
+}
+.flip img {
+    width: 300px;
+    height: 300px;
+}
+
+.flip .back {
+    position: relative;
+    background: #e11d22;
+    color: #fff;
+    text-align: center;
+    z-index: -999;
+}
+
+.flip .front{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.clickimage{
+    top:500px;
+}
+
+h5{
+position: absolute;
+}
+
+h6{
+    color: white;
+}
+
+
+
+/* media Queries... */
+
+    
+@media only screen and (min-width : 700px) { /*when width is larger than 700*/
+
+    #scroller_content_one{
+        height:400px;
+    }
+    #imagecover{
+        height: auto
+    }
+    #simple-menu{
+        visibility: hidden;
+    }
+    
+    h1{
+        font-size: 70pt;
+    }
+    
+    #scrollbutton{
+        font-size: 40pt;
+    }
+
+
+    
+    
+    
+    }
+
+@media only screen and (max-width : 1400px) {
+    #controls{
+        top: 1000px;
+        Right: 1500px;
+    }
+}
+
+@media only screen and (max-width : 700px) { /*when width is less than 700*/
+    .bar-item{
+        visibility: hidden;
+    }
+    .textlogo{
+        transform:translate(-50%, 40%);
+        position: absolute;
+    }
+        #scroller_content_one{
+        height:100px
+    }
+        #imagecover{
+        height:auto;
+    }
+    
+        .cart{
+        top:600px;
+    }
+
+    .products{
+        margin-bottom: 400px;
+    }
+}
+
+@media only screen and (max-width : 430px) { /*when width is less than 430*/
+
+}
+    
+@media only screen and (max-width : 400px) {
+    
+        .video-foreground,.video-background iframe {
+        visibility: hidden;
+    }
+    
+    .video-background, .video-foreground{
+                height: 200px;
+                
+    }
+            
+        .textlogo1{
+                width:200px; 
+                height: auto; 
+    }
+    
+    #playbutton{
+        margin: 0px;
+        padding: 0px
+    }
+            
+            
+    
+}
+    
+    @media only screen and (max-width : 200px) { /*when width is less than 400*/
+        body{
+            visibility: hidden;
+        }
+}
