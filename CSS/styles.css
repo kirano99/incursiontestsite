@@ -30,14 +30,26 @@ body {
     position:fixed;
     left:50%;
     right:50%;
-    transform:translate(-49%, 210%);
+    transform:translate(-120%, 125%);
+    position: fixed;
+    z-index: 999;
+
+    }
+
+.navclass2{
+    width:690px; 
+    height: auto;  
+    position:fixed;
+    left:50%;
+    right:50%;
+    transform:translate(55%, 125%);
     position: fixed;
     z-index: 999;
 
     }
 .button{
     
-    background-color: #e11d22;
+    background-color: #0000;
     color: white;
     padding: 20px 46px;
     text-align: center; 
@@ -62,12 +74,12 @@ a{
 }
 
 .textlogo{
-    width:600px; 
+    width:500px; 
     height: auto;  
     position:fixed;
     left:50%;
     right:50%;
-    transform:translate(-50%, -5%);
+    transform:translate(-50%, 50%);
     position: fixed;
     z-index: 999;
     display: none;
