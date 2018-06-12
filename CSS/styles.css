@@ -27,11 +27,11 @@ body {
 .navclass{
     width:690px; 
     height: auto;  
-    position:fixed;
+    position:relative;
     left:50%;
     right:50%;
-    transform:translate(-120%, 125%);
-    position: fixed;
+    transform:translate(-95%, -90%);
+    position: relative;
     z-index: 999;
 
     }
@@ -39,14 +39,28 @@ body {
 .navclass2{
     width:690px; 
     height: auto;  
-    position:fixed;
+    position:relative;
     left:50%;
     right:50%;
-    transform:translate(55%, 125%);
-    position: fixed;
+    transform:translate(29%, -190%);
+    position: relative;
     z-index: 999;
 
     }
+
+.navclass3{
+    width: auto; 
+    height: auto;  
+    position:relative;
+    left:50%;
+    right:50%;
+    transform:translate(-48%, -150%);
+    position: relative;
+    z-index: 999;
+    text-align: center;
+    visibility: hidden;
+    }
+
 .button{
     
     background-color: #0000;
@@ -58,56 +72,68 @@ body {
     height:auto;
 }
 
-.bar-item:hover{
-    background-color: darkred;
+.button2{
+    
+    background-color: #0000;
+    color: white;
+    padding: 0px 24px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-table;
+    height:auto;
 }
 
 .button:hover{
     text-shadow:1px 0px #555;
-  -moz-transform:scale(1.08); 
-  -webkit-transform:scale(1.08);
-  -o-transform:scale(1.08);
+  -moz-transform:scale(1.15); 
+  -webkit-transform:scale(1.15);
+  -o-transform:scale(1.15);
+    text-decoration: underline;
+    text-decoration-color: white;
 }
+
+.button2:hover{
+    text-shadow:1px 0px #555;
+  -moz-transform:scale(1.15); 
+  -webkit-transform:scale(1.15);
+  -o-transform:scale(1.15);
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
 
 a{
     text-decoration:none;
 }
 
 .textlogo{
-    width:500px; 
+    width: 350px; 
     height: auto;  
-    position:fixed;
+    position:relative;
     left:50%;
     right:50%;
     transform:translate(-50%, 50%);
-    position: fixed;
-    z-index: 999;
+    z-index: 1;
     display: none;
 }
 .textlogo1{
     width:600px; 
     height: auto;  
-    position:fixed;
     left:50%;
     right:50%;
     transform:translate(-50%, -5%);
-    position: fixed;
     z-index: 999;
 }
-.video-background {
-  background: #000;
-  position: relative;
-  top: 0 ; right: 0; bottom: 0; left: 0;
-  z-index: -99;
+
+
+video {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: auto;
+    transform:translate(0%, -25%)
 }
-.video-foreground,.video-background iframe {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events:all;
-}
+
 
 .musicvid{
     z-index: 1;
@@ -166,6 +192,8 @@ vertical-align: middle;
     background-size: cover;
     background-color: black;
     height: 0;
+    z-index: 1;
+        
 }
 h3{
 color: white;
@@ -177,14 +205,16 @@ vertical-align: middle;
 #simple-menu{
     position: fixed;
     z-index: 999;
-   padding: 0;
+    padding: 0;
     margin: 0;
+    top: 20px;
+    visibility: hidden;
 }
 #menuimg{
     height: auto; 
     width: auto; 
-    max-width: 50px; 
-    max-height: 50px;
+    max-width: 80px; 
+    max-height: 80px;
 }
 
 #playbutton{
@@ -425,9 +455,6 @@ h6{
     #imagecover{
         height: auto
     }
-    #simple-menu{
-        visibility: hidden;
-    }
     
     h1{
         font-size: 70pt;
@@ -436,75 +463,50 @@ h6{
     #scrollbutton{
         font-size: 40pt;
     }
-
-
-    
-    
-    
-    }
-
-@media only screen and (max-width : 1400px) {
-    #controls{
-        top: 1000px;
-        Right: 1500px;
-    }
 }
 
-@media only screen and (max-width : 700px) { /*when width is less than 700*/
-    .bar-item{
-        visibility: hidden;
-    }
-    .textlogo{
-        transform:translate(-50%, 40%);
-        position: absolute;
-    }
-        #scroller_content_one{
-        height:100px
-    }
-        #imagecover{
-        height:auto;
-    }
-    
-        .cart{
-        top:600px;
-    }
+    @media only screen and (max-width : 1500px) { /*when width is less than 400*/
 
-    .products{
-        margin-bottom: 400px;
-    }
+        .navclass{
+            visibility: hidden;
+        }
+        .navclass2{
+            visibility: hidden;
+        }
+        .navclass3{
+            visibility: visible;
+        }
 }
 
-@media only screen and (max-width : 430px) { /*when width is less than 430*/
-
-}
-    
-@media only screen and (max-width : 400px) {
-    
-        .video-foreground,.video-background iframe {
-        visibility: hidden;
-    }
-    
-    .video-background, .video-foreground{
-                height: 200px;
-                
-    }
-            
-        .textlogo1{
-                width:200px; 
-                height: auto; 
-    }
-    
-    #playbutton{
-        margin: 0px;
-        padding: 0px
-    }
-            
-            
-    
-}
-    
     @media only screen and (max-width : 200px) { /*when width is less than 400*/
         body{
             visibility: hidden;
+        }
+}
+
+    @media only screen and (max-width : 750px) { /*when width is less than 400*/
+
+        .navclass3{
+            visibility: hidden;
+        }
+        #simple-menu{
+            visibility: visible;
+        }
+        #menuimg{
+            visibility: visible;
+        }
+
+}
+
+@media only screen and (max-width : 500px) { /*when width is less than 400*/
+        .textlogo{
+        width: 200px; 
+            transform: translate(-50%, 80%)
+        }
+}
+
+@media only screen and (max-width : 400px) { /*when width is less than 400*/
+        .textlogo{
+            transform: translate(-30%, 80%)
         }
 }
