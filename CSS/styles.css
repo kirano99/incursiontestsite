@@ -131,7 +131,7 @@ video {
     height: auto;
     position: relative;
     z-index: auto;
-    transform:translate(0%, -25%)
+    transform:translate(0%, 0%)
 }
 
 
@@ -160,6 +160,16 @@ h1{
     background-size: cover;
     background-color: black;
     height: 400px;
+}
+
+#scroller_content_two{
+    
+    position: relative;
+    background-size: cover;
+    background-color: black;
+    height: auto;
+    text-align: center;
+    
 }
 
 #Text_One{
@@ -270,6 +280,7 @@ select{
     margin: 0px;
     position: relative;
     Right: 450px;
+    Top: -100px;
     Top: -100px;
 }
 #custom{
@@ -442,27 +453,38 @@ h6{
     color: white;
 }
 
+.topblack{
+    height: 130px;
+    width: auto;
+}
 
+.socialicon{
+    text-align: center;
+    height: auto;
+    width: auto;
+    display: inline-table;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .2s;
+    padding: 20px
+
+}
+
+.socialicon:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+
+#imagecover{
+    height:100%;
+}
 
 /* media Queries... */
 
     
 @media only screen and (min-width : 700px) { /*when width is larger than 700*/
 
-    #scroller_content_one{
-        height:400px;
-    }
-    #imagecover{
-        height: auto
-    }
-    
-    h1{
-        font-size: 70pt;
-    }
-    
-    #scrollbutton{
-        font-size: 40pt;
-    }
 }
 
     @media only screen and (max-width : 1500px) { /*when width is less than 400*/
@@ -476,6 +498,11 @@ h6{
         .navclass3{
             visibility: visible;
         }
+        .topblack{
+            height: 250px;
+            width: auto;
+        }
+
 }
 
     @media only screen and (max-width : 200px) { /*when width is less than 400*/
@@ -495,6 +522,10 @@ h6{
         #menuimg{
             visibility: visible;
         }
+            .topblack{
+            height: 150px;
+            width: auto;
+        }
 
 }
 
@@ -509,4 +540,19 @@ h6{
         .textlogo{
             transform: translate(-30%, 80%)
         }
+}
+
+@media only screen and (max-width : 850px) { /*when width is less than 400*/
+    .socialicon{
+        height:75px
+    }
+}
+@media only screen and (max-width : 580px) { /*when width is less than 400*/
+    .socialicon{
+        height:40px;
+        padding:0px;
+    }
+    #scroller_content_two{
+        
+    }
 }
