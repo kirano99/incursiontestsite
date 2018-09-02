@@ -279,6 +279,7 @@ h5 {
 
 h6 {
     color: white;
+    font-size: 14px;
 }
 
 .topblack {
@@ -310,16 +311,17 @@ h6 {
 }
 
 .flip {
-    height: 199px;
+    height: 300px;
     width: 300px;
     margin: 0 auto;
+    display: inline-block;
 }
 .flip img {
     width: 300px;
     height: auto;
 }
 .flip .back {
-    background: #2184cd;
+    background: #000000;
     color: #fff;
     text-align: center;
 }

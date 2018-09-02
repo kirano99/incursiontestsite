@@ -31,8 +31,7 @@ $(function(){
 
 $(function(){
     $(".flip").flip({
-        trigger: 'hover',
-        axis: 'x'
+        trigger: 'click'
     });
 });
 
