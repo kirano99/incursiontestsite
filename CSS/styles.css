@@ -1,8 +1,8 @@
-body{
+body {
     display: block;
     background-color: black;
-    overflow:scroll;
-    overflow-x:hidden;
+    overflow: scroll;
+    overflow-x: hidden;
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
@@ -10,123 +10,122 @@ body{
 }
 
 @font-face {
-	font-family: 'GothamBook';
-	src: url('../Fonts/GothamBook.eot');
-	src: local('GothamBook'), url('../Fonts/GothamBook.woff') format('woff'), url('/Fonts/GothamBook.ttf') format('truetype');
+    font-family: 'GothamBook';
+    src: url('../Fonts/GothamBook.eot');
+    src: local('GothamBook'), url('../Fonts/GothamBook.woff') format('woff'), url('/Fonts/GothamBook.ttf') format('truetype');
 }
 
 body {
-	font-family: 'GothamBook' !important;
+    font-family: 'GothamBook' !important;
     font-size: 17px
 }
 
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar {
+    display: none;
 }
 
-.navclass{
-    width:690px; 
-    height: auto;  
-    position:relative;
-    left:50%;
-    right:50%;
-    transform:translate(-73%, -90%);
+.navclass {
+    width: 690px;
+    height: auto;
     position: relative;
-    z-index: -1;
-
-    }
-
-.navclass2{
-    width:690px; 
-    height: auto;  
-    position:relative;
-    left:50%;
-    right:50%;
-    transform:translate(29%, -190%);
+    left: 50%;
+    right: 50%;
+    transform: translate(-73%, -90%);
     position: relative;
-    z-index: -1;
+    z-index: 999;
 
-    }
+}
 
-.navclass3{
-    width: auto; 
-    height: auto;  
-    position:relative;
-    left:50%;
-    right:50%;
-    transform:translate(-49%, -150%);
+.navclass2 {
+    width: 690px;
+    height: auto;
     position: relative;
-    z-index: -1;
+    left: 50%;
+    right: 50%;
+    transform: translate(29%, -190%);
+    position: relative;
+    z-index: 999;
+
+}
+
+.navclass3 {
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-49%, -150%);
+    position: relative;
+    z-index: 999;
     text-align: center;
     visibility: hidden;
-    }
+}
 
-.button{
-    
+.button {
+
     background-color: rgba(255, 255, 255, 0);
     color: white;
     padding: 20px 46px;
-    text-align: center; 
+    text-align: center;
     text-decoration: none;
     display: inline-table;
-    height:auto;
+    height: auto;
 }
 
-.button2{
-    
+.button2 {
+
     background-color: rgba(255, 255, 255, 0);
     color: white;
     padding: 0px 24px;
-    text-align: center; 
+    text-align: center;
     text-decoration: none;
     display: inline-table;
-    height:auto;
+    height: auto;
 }
 
-.button:hover{
-    text-shadow:1px 0px #555;
-  -moz-transform:scale(1.15); 
-  -webkit-transform:scale(1.15);
-  -o-transform:scale(1.15);
-    text-decoration: underline;
+.button:hover {
+    text-shadow: 1px 0px #555;
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -o-transform: scale(1.15);
     text-decoration-color: white;
 }
 
-.button2:hover{
-    text-shadow:1px 0px #555;
-  -moz-transform:scale(1.15); 
-  -webkit-transform:scale(1.15);
-  -o-transform:scale(1.15);
-    text-decoration: underline;
+.button2:hover {
+    text-shadow: 1px 0px #555;
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -o-transform: scale(1.15);
     text-decoration-color: white;
 }
 
 
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
 }
 
-#headtitle{
+#headtitle {
     z-index: 999;
     height: auto;
 }
 
-.textlogo{
-    width: 350px; 
-    height: auto;  
-    position:relative;
-    left:50%;
-    right:50%;
-    transform:translate(-50%, 50%);
+.textlogo {
+    width: 350px;
+    height: auto;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 50%);
     z-index: 1;
     display: none;
 }
-.textlogo1{
-    width:600px; 
-    height: auto;  
-    left:50%;
-    right:50%;
-    transform:translate(-50%, -5%);
+
+.textlogo1 {
+    width: 600px;
+    height: auto;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -5%);
     z-index: 999;
 }
 
@@ -136,88 +135,106 @@ video {
     height: auto;
     position: relative;
     z-index: auto;
-    transform:translate(0%, 0%)
+    transform: translate(0%, 0%)
 }
 
 
-.frontvid{
+.frontvid {
     z-index: 1;
 }
 
-section{
-    background-size:auto;
-    height:100vh;
+section {
+    background-size: auto;
+    height: 100vh;
     width: 100vw;
     display: table;
 }
 
-h1{
+h1 {
     color: white;
-    font-size: 40pt;
-    color: #e11d22;
+    font-size: 30pt;
+    color: white;
     margin: 0;
 }
 
-
-#scroller_content_one{
-    
-    position: relative;
-    background-size: cover;
-    background-color: black;
-    height: 400px;
+.hrtop {
+    width: 40%;
+}
+.hrbot{
+    width: 80%;
 }
 
-#scroller_content_two{
+
+#scroller_content_one {
+
+    /*position: relative;
+    background-size: cover;
+    background-color: black;
+    height: 400px;*/
     
     position: relative;
     background-size: cover;
     background-color: black;
     height: auto;
     text-align: center;
-    
 }
 
-#Text_One{
-text-align: center;
-display: table-cell;
-vertical-align: middle;  
+#scroller_content_two {
+
+    position: relative;
+    background-size: cover;
+    background-color: black;
+    height: auto;
+    text-align: center;
+
 }
-#smallertext{
-    font-size: 35pt ;
+
+#Text_One {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
-#coverpicture{
+
+#smallertext {
+    font-size: 35pt;
+}
+
+#coverpicture {
     max-width: 100%;
     height: auto;
     width: auto;
     display: block;
     margin: 0 auto;
 }
-#smalllogobottom{
-    width:500px; 
-    height: auto;  
-    position:fixed;
-    left:50%;
+
+#smalllogobottom {
+    width: 500px;
+    height: auto;
+    position: fixed;
+    left: 50%;
     right: 50%;
-    transform:translate(-50%, 0%);
+    transform: translate(-50%, 0%);
     position: relative;
     z-index: 999;
 }
-#smallscroll{
+
+#smallscroll {
     position: relative;
     background-size: cover;
     background-color: black;
     height: 0;
     z-index: 1;
-        
+
 }
-h3{
-color: white;
-text-align: center;
-vertical-align: middle; 
+
+h3 {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
     margin: 0;
 }
 
-#simple-menu{
+#simple-menu {
     position: fixed;
     z-index: 999;
     padding: 0;
@@ -225,21 +242,22 @@ vertical-align: middle;
     top: 20px;
     visibility: hidden;
 }
-#menuimg{
-    height: auto; 
-    width: auto; 
-    max-width: 80px; 
+
+#menuimg {
+    height: auto;
+    width: auto;
+    max-width: 80px;
     max-height: 80px;
 }
 
-#playbutton{
+#playbutton {
     padding: 50px
 }
 
-canvas{
+canvas {
     position: absolute;
-    z-index:100;
-    background-color:transparent;
+    z-index: 100;
+    background-color: transparent;
     margin: 0px;
     top: 200px;
     left: 50px;
@@ -250,7 +268,7 @@ canvas{
 
 #controls {
     overflow: hidden;
-    background-color:  #e11d22;
+    background-color: #e11d22;
     height: 1000px;
     position: absolute;
     top: 200px;
@@ -259,19 +277,22 @@ canvas{
     z-index: 3;
     width: 400px;
     float: right;
-    border:1px solid #ffffff;
+    border: 1px solid #ffffff;
 }
-#selection{
+
+#selection {
     margin: 0px;
     position: relative;
     left: 500px;
     top: 130px
 }
-#custtitle{
+
+#custtitle {
     margin: 0px;
 
 }
-h4{
+
+h4 {
     margin: 7px;
     font-size: 14pt;
     color: white;
@@ -280,7 +301,8 @@ h4{
     Top: -100px;
 
 }
-select{
+
+select {
     width: 175px;
     margin: 0px;
     position: relative;
@@ -288,136 +310,124 @@ select{
     Top: -100px;
     Top: -100px;
 }
-#custom{
+
+#custom {
     position: relative;
-    top:20px
+    top: 20px
 }
 
 .hiddenColor {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 
-#colourchange{
+#colourchange {
     position: relative;
     right: 177px;
     top: 28px;
 }
 
-#map{
+#map {
     margin: 50px;
 }
 
 
 
-		.products{
-			list-style:none;
-			margin-right:300px;
-			padding:0px;
-			height:100%;
-            position: relative;
-            top: 800px;
-		}
-		.products li{
-			display:inline-block;
-			float:left;
-			margin:10px;
-		}
-#storewelcome{
+.products {
+    list-style: none;
+    margin-right: 300px;
+    padding: 0px;
+    height: 100%;
+    position: relative;
+    top: 800px;
+}
+
+.products li {
+    display: inline-block;
+    float: left;
+    margin: 10px;
+}
+
+#storewelcome {
     text-align: center;
     position: relative;
     font-size: 40px;
     top: 0px;
     z-index: 999;
-    
-}
-		.item{
-			display:block;
-			text-decoration:none;
-            border: 2px solid #e11d22;
-		}
-		.item p{
-			margin:0;
-			font-weight:bold;
-			text-align:center;
-			color:#c3c3c3;
-		}
-		.cart{
-			position:fixed;
-			right:0;
-			top:142px;
-			width:280px;
-			height:100%;
-			background:#e11d22;
-			padding:0px 10px;
-		}
-h2{
-    position:absolute;
-    font-size:16px;
-    left:10px;
-    bottom:20px;
-    color:#555;
-}
-		.total{
-			margin:0;
-			text-align:right;
-			padding-right:20px;
-            color: white;
-		}
 
-#cartcontent{
+}
+
+.item {
+    display: block;
+    text-decoration: none;
+    border: 2px solid #e11d22;
+}
+
+.item p {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    color: #c3c3c3;
+}
+
+.cart {
+    position: fixed;
+    right: 0;
+    top: 142px;
+    width: 280px;
+    height: 100%;
+    background: #e11d22;
+    padding: 0px 10px;
+}
+
+h2 {
+    position: absolute;
+    font-size: 16px;
+    left: 10px;
+    bottom: 20px;
+    color: #555;
+}
+
+.total {
+    margin: 0;
+    text-align: right;
+    padding-right: 20px;
+    color: white;
+}
+
+#cartcontent {
     background-color: #e11d22;
     color: #e11d22;
 }
 
-thead{
+thead {
     background-color: #e11d22;
 }
 
-svg{
-    float: left;
-    position: relative;
-    top: 90px;
-    left: 50px;
-    margin: 0;
-    flex-shrink: 0;
-}
 
-svg #head{
-   fill:#fff;
-}
-
-svg #eyes{
-    fill:#FF0245;
-}
-
-svg #path0{
-    fill:black;
-}
-
-#AlbumCanvas{
+#AlbumCanvas {
     letter-spacing: 0;
     border: 1px solid white;
 
 }
 
-#AddCustomToCart{
+#AddCustomToCart {
     position: relative;
     top: 50px;
     left: 50px
 }
 
-#colourchange{
+#colourchange {
     position: relative;
     top: 10px;
     left: 30px;
 }
 
-#inputtitle{
+#inputtitle {
     position: relative;
     left: 30px;
 }
@@ -427,6 +437,7 @@ svg #path0{
     width: 300px;
     margin: 0;
 }
+
 .flip img {
     width: 300px;
     height: 300px;
@@ -440,30 +451,30 @@ svg #path0{
     z-index: -999;
 }
 
-.flip .front{
+.flip .front {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
 }
 
-.clickimage{
-    top:500px;
+.clickimage {
+    top: 500px;
 }
 
-h5{
-position: absolute;
+h5 {
+    position: absolute;
 }
 
-h6{
+h6 {
     color: white;
 }
 
-.topblack{
+.topblack {
     height: 130px;
     width: auto;
 }
 
-.socialicon{
+.socialicon {
     text-align: center;
     height: auto;
     width: auto;
@@ -472,92 +483,96 @@ h6{
     margin-right: auto;
     transition: transform .2s;
     padding: 20px
-
 }
 
-.socialicon:hover{
-    -ms-transform: scale(1.2); /* IE 9 */
-    -webkit-transform: scale(1.2); /* Safari 3-8 */
-    transform: scale(1.2); 
+.socialicon:hover {
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 */
+    transform: scale(1.2);
 }
 
-#imagecover{
-    height:100%;
+#imagecover {
+    height: 100%;
 }
 
 /* media Queries... */
 
-    
-@media only screen and (min-width : 700px) { /*when width is larger than 700*/
+@media only screen and (min-width: 700px) {
+    /*when width is larger than 700*/
+}
+
+@media only screen and (max-width: 1500px) {
+    /*when width is less than 400*/
+    .navclass {
+        visibility: hidden;
+    }
+    .navclass2 {
+        visibility: hidden;
+    }
+    .navclass3 {
+        visibility: visible;
+    }
+    .topblack {
+        height: 250px;
+        width: auto;
+    }
 
 }
 
-    @media only screen and (max-width : 1500px) { /*when width is less than 400*/
-
-        .navclass{
-            visibility: hidden;
-        }
-        .navclass2{
-            visibility: hidden;
-        }
-        .navclass3{
-            visibility: visible;
-        }
-        .topblack{
-            height: 250px;
-            width: auto;
-        }
-
-}
-
-    @media only screen and (max-width : 200px) { /*when width is less than 400*/
-        body{
-            visibility: hidden;
-        }
-}
-
-    @media only screen and (max-width : 750px) { /*when width is less than 400*/
-
-        .navclass3{
-            visibility: hidden;
-        }
-        #simple-menu{
-            visibility: visible;
-        }
-        #menuimg{
-            visibility: visible;
-        }
-            .topblack{
-            height: 150px;
-            width: auto;
-        }
-
-}
-
-@media only screen and (max-width : 500px) { /*when width is less than 400*/
-        .textlogo{
-        width: 200px; 
-            transform: translate(-50%, 80%)
-        }
-}
-
-@media only screen and (max-width : 400px) { /*when width is less than 400*/
-        .textlogo{
-            transform: translate(-30%, 80%)
-        }
-}
-
-@media only screen and (max-width : 850px) { /*when width is less than 400*/
-    .socialicon{
-        height:75px
+@media only screen and (max-width: 200px) {
+    /*when width is less than 400*/
+    body {
+        visibility: hidden;
     }
 }
-@media only screen and (max-width : 580px) { /*when width is less than 400*/
-    .socialicon{
-        height:40px;
-        padding:0px;
+
+@media only screen and (max-width: 750px) {
+    /*when width is less than 400*/
+    .navclass3 {
+        visibility: hidden;
     }
-    #scroller_content_two{
-        
+    #simple-menu {
+        visibility: visible;
     }
+    #menuimg {
+        visibility: visible;
+    }
+    .topblack {
+        height: 150px;
+        width: auto;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    /*when width is less than 400*/
+    .textlogo {
+        width: 200px;
+        transform: translate(-50%, 80%)
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /*when width is less than 400*/
+    .textlogo {
+        transform: translate(-30%, 80%)
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    /*when width is less than 400*/
+    .socialicon {
+        height: 75px
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    /*when width is less than 400*/
+    .socialicon {
+        height: 40px;
+        padding: 0px;
+    }
+    #scroller_content_two {}
 }
