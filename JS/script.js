@@ -41,6 +41,7 @@ $(function(){
     $(".flip").flip({
         trigger: 'hover'
     });
+    console.log('FLIP');
 });
 
 
