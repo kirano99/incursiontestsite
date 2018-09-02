@@ -313,8 +313,14 @@ h6 {
 .flip {
     height: 300px;
     width: 300px;
-    margin: 0 auto;
-    display: inline-block;
+    margin: 5 auto;
+    display: inline-grid;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: minmax(1, 5);
+    
+
+    
 }
 .flip img {
     width: 300px;
@@ -324,6 +330,19 @@ h6 {
     background: #000000;
     color: #fff;
     text-align: center;
+}
+
+.listen{
+    font-size: 25pt;
+    color: white;
+    text-decoration-color: white;
+    box-sizing: border-box;
+    padding: 15px;    
+    border: 1px solid white;
+    position: fixed;
+    bottom: 10px;
+    left: 15%;
+    
 }
 
 /* media Queries... */
