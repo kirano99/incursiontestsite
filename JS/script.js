@@ -29,8 +29,11 @@ $(function(){
      }
  });
 
-$("#flipcard").flip({
-  trigger: 'click'
+$(function(){
+    $(".flip").flip({
+        trigger: 'hover',
+        axis: 'x'
+    });
 });
 
 
