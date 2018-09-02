@@ -94,6 +94,7 @@ body {
 .button2:hover {
     text-shadow: 1px 0px #555;
     -moz-transform: scale(1.15);
+    -moz-transform: scale(1.15);
     -webkit-transform: scale(1.15);
     -o-transform: scale(1.15);
     text-decoration-color: white;
@@ -177,7 +178,6 @@ h1 {
     background-color: black;
     height: auto;
     text-align: center;
-    z-index: 0;
 }
 
 #scroller_content_two {
@@ -255,44 +255,6 @@ h3 {
     padding: 50px
 }
 
-canvas {
-    position: absolute;
-    z-index: 100;
-    background-color: transparent;
-    margin: 0px;
-    top: 200px;
-    left: 50px;
-    z-index: 100;
-    float: left;
-}
-
-
-#controls {
-    overflow: hidden;
-    background-color: #e11d22;
-    height: 1000px;
-    position: absolute;
-    top: 200px;
-    Right: 400px;
-    margin: 0px;
-    z-index: 3;
-    width: 400px;
-    float: right;
-    border: 1px solid #ffffff;
-}
-
-#selection {
-    margin: 0px;
-    position: relative;
-    left: 500px;
-    top: 130px
-}
-
-#custtitle {
-    margin: 0px;
-
-}
-
 h4 {
     margin: 7px;
     font-size: 14pt;
@@ -303,84 +265,12 @@ h4 {
 
 }
 
-select {
-    width: 175px;
-    margin: 0px;
-    position: relative;
-    Right: 450px;
-    Top: -100px;
-    Top: -100px;
-}
-
-
-
-.products {
-    list-style: none;
-    margin-right: 300px;
-    padding: 0px;
-    height: 100%;
-    position: relative;
-    
-}
-
-.products li {
-    display: inline-block;
-    float: left;
-    margin: 10px;
-    z-index: 100;
-}
-
-.item {
-    display: block;
-    text-decoration: none;
-    border: 2px solid #e11d22;
-    z-index: 100;
-}
-
-
-
 h2 {
     position: absolute;
     font-size: 16px;
     left: 10px;
     bottom: 20px;
     color: #555;
-}
-
-thead {
-    background-color: #e11d22;
-}
-
-
-
-.flip {
-    height: 300px;
-    width: 300px;
-    margin: 10px;
-    z-index: 0;
-}
-
-.flip img {
-    width: 300px;
-    height: 300px;
-}
-
-.flip .back {
-    position: relative;
-    background: #e11d22;
-    color: #fff;
-    text-align: center;
-    z-index: -999;
-}
-
-.flip .front {
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-.clickimage {
-    top: 500px;
 }
 
 h5 {

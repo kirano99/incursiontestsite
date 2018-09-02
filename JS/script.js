@@ -28,10 +28,11 @@ $(function(){
       $('.video-foreground').fadeIn();
      }
  });
-    
-$(".flip").flip({
-  trigger: 'hover'
+
+$("#flipcard").flip({
+  trigger: 'click'
 });
+
 
 	function openNav() {
     document.getElementById("sidenav").style.width = "250px";
