@@ -12,11 +12,12 @@ $(function(){
     $('#simple-menu').sidr();
     $(".navclass").fadeIn(5000).removeClass('hidden');
     $(".textlogo").fadeIn(5000).removeClass('hidden');
-    console.log('animation')
+    console.log('animation');
     
  console.log('fired');
+});
 
-$(window).scroll(function() {
+  $(window).scroll(function() {
 
     if ($(this).scrollTop()>400)
      {
@@ -27,84 +28,16 @@ $(window).scroll(function() {
       $('.video-foreground').fadeIn();
      }
  });
+    
+$(".flip").flip({
+  trigger: 'hover'
+});
 
-function openNav() {
+	function openNav() {
     document.getElementById("sidenav").style.width = "250px";
-    comsole.log("worked")
+    console.log("worked");
 }
 
 function closeNav() {
     document.getElementById("sidenav").style.width = "0";
 }
-
-$(function(){
-    $(".flip").flip({
-        trigger: 'hover'
-    });
-    console.log('FLIP');
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

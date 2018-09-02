@@ -177,6 +177,7 @@ h1 {
     background-color: black;
     height: auto;
     text-align: center;
+    z-index: 0;
 }
 
 #scroller_content_two {
@@ -223,7 +224,7 @@ h1 {
     background-size: cover;
     background-color: black;
     height: 0;
-    z-index: 1;
+    z-index: 0;
 
 }
 
@@ -311,30 +312,6 @@ select {
     Top: -100px;
 }
 
-#custom {
-    position: relative;
-    top: 20px
-}
-
-.hiddenColor {
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}
-
-#colourchange {
-    position: relative;
-    right: 177px;
-    top: 28px;
-}
-
-#map {
-    margin: 50px;
-}
-
 
 
 .products {
@@ -343,27 +320,21 @@ select {
     padding: 0px;
     height: 100%;
     position: relative;
+    
 }
 
 .products li {
     display: inline-block;
     float: left;
     margin: 10px;
-}
-
-#storewelcome {
-    text-align: center;
-    position: relative;
-    font-size: 40px;
-    top: 0px;
-    z-index: 999;
-
+    z-index: 100;
 }
 
 .item {
     display: block;
     text-decoration: none;
     border: 2px solid #e11d22;
+    z-index: 100;
 }
 
 
@@ -386,6 +357,7 @@ thead {
     height: 300px;
     width: 300px;
     margin: 10px;
+    z-index: 0;
 }
 
 .flip img {
