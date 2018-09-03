@@ -389,6 +389,63 @@ h6 {
 }
 
 
+input[type=text], select, textarea{
+    border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+    width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+
+}
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+
+input[type=submit] {
+    background-color: black;
+  color: white;
+  padding: 12px 20px;
+    font-family: 'GothamBook';
+    font-size: 15pt;
+    margin-top: 20px;
+  border: white, 10px;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #000000;
+  padding: 70px;
+}
+
+
+.small {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+
+.big {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
 /* media Queries... */
 
 @media only screen and (min-width: 700px) {
@@ -483,4 +540,11 @@ h6 {
         font-size: 15pt; 
     }
     #scroller_content_two {}
+}
+
+@media screen and (max-width: 600px) {
+  .small, .big, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
