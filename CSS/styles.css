@@ -468,6 +468,13 @@ input[type=submit] {
     margin-top: 6px;
 }
 
+.cssvalid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /* media Queries... */
 
 @media only screen and (min-width: 700px) {
