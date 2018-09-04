@@ -112,6 +112,7 @@ a {
 #headtitle {
     z-index: 999;
     height: auto;
+    width: 350px;
 }
 
 .textlogo {
@@ -381,6 +382,22 @@ h6 {
     margin: 20px;
     margin-left: 40px;
     margin-right: 40px;
+}
+
+.next:hover {
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+.prev:hover {
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 */
+    transform: scale(1.2);
 }
 
 .pagenum {
