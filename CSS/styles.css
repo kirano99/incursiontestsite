@@ -299,7 +299,7 @@ h6 {
     margin-right: auto;
     transition: transform .2s;
     padding: 20px;
-    width: 100px;
+    width: auto;
 }
 
 .socialicon:hover {
@@ -543,7 +543,7 @@ input[type=submit] {
 @media only screen and (max-width: 850px) {
     /*when width is less than 400*/
     .socialicon {
-        height: 75px
+        height: 75px;
     }
 }
 
