@@ -171,7 +171,7 @@ h1 {
 }
 
 
-#scroller_content_one {
+.scroller_content_one {
 
     /*position: relative;
     background-size: cover;
@@ -184,7 +184,7 @@ h1 {
     text-align: center;
 }
 
-#scroller_content_two {
+.scroller_content_two {
 
     position: relative;
     background-size: cover;
@@ -194,7 +194,7 @@ h1 {
 
 }
 
-#Text_One {
+.Text_One {
     text-align: center;
     display: table-cell;
     vertical-align: middle;
@@ -204,7 +204,7 @@ h1 {
     font-size: 35pt;
 }
 
-#coverpicture {
+.coverpicture {
     max-width: 100%;
     height: auto;
     width: auto;
@@ -284,7 +284,7 @@ h5 {
 h6 {
     color: white;
     font-size: 14px;
-}
+}á
 
 .topblack {
     height: 130px;
@@ -294,12 +294,12 @@ h6 {
 .socialicon {
     text-align: center;
     height: auto;
-    width: auto;
     display: inline-table;
     margin-left: auto;
     margin-right: auto;
     transition: transform .2s;
-    padding: 20px
+    padding: 20px;
+    width: 100px;
 }
 
 .socialicon:hover {
@@ -317,11 +317,11 @@ h6 {
 .flip {
     height: 300px;
     width: 300px;
-    margin: 5 auto;
+    margin: 5px auto;
     display: inline-grid;
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-    grid-auto-columns: minmax(1, 5);
+    grid-auto-columns: minmax(100%, 100%);
 
 }
 
@@ -357,14 +357,14 @@ h6 {
 
 }
 
-#albumartid {
+.albumartid {
     width: 500px;
     height: auto;
     text-align: center;
 
 }
 
-#blogwideimg {
+.blogwideimg {
     width: 700px;
     height: auto;
     text-align: center;
@@ -428,13 +428,14 @@ label {
 
 
 input[type=submit] {
-    background-color: black;
+    background-color: dimgrey;
     color: white;
     padding: 12px 20px;
     font-family: 'GothamBook';
     font-size: 15pt;
     margin-top: 20px;
-    border: white, 10px;
+    border: 10px;
+    border-color: white;
     border-radius: 4px;
     cursor: pointer;
 
@@ -465,6 +466,13 @@ input[type=submit] {
     float: left;
     width: 75%;
     margin-top: 6px;
+}
+
+.cssvalid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /* media Queries... */
@@ -514,11 +522,11 @@ input[type=submit] {
         width: auto;
     }
 
-    #blogwideimg {
+    .blogwideimg {
         width: 300px;
     }
 
-    #albumartid {
+    .albumartid {
         width: 300px;
     }
 
@@ -560,7 +568,7 @@ input[type=submit] {
     #controls {
         font-size: 15pt;
     }
-    #scroller_content_two {}
+    .scroller_content_two {}
 }
 
 @media screen and (max-width: 600px) {
