@@ -14,6 +14,8 @@ $(function () { //OnLoad Function
     $(".textlogo").fadeIn(5000).removeClass('hidden');
     console.log('animation');
     console.log('fired');
+    
+    $('.slickitem').slick();
 
     //for blog next/back pages VVVV
 
@@ -78,8 +80,6 @@ $(function () { //OnLoad Function
         $el.slice(slice[0], slice[1]).css('display', 'block');
     }
 });
-
-
 
 $(window).scroll(function () {
 
