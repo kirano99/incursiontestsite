@@ -488,12 +488,8 @@ input[type=submit] {
 
 /* media Queries... */
 
-@media only screen and (min-width: 700px) {
-    /*when width is larger than 700*/
-}
-
 @media only screen and (max-width: 1500px) {
-    /*when width is less than 400*/
+    /*when width is less than 1500*/
     .navclass {
         visibility: hidden;
     }
@@ -511,14 +507,14 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 200px) {
-    /*when width is less than 400*/
+    /*when width is less than 200*/
     body {
         visibility: hidden;
     }
 }
 
 @media only screen and (max-width: 750px) {
-    /*when width is less than 400*/
+    /*when width is less than 750*/
     .navclass3 {
         visibility: hidden;
     }
@@ -540,11 +536,14 @@ input[type=submit] {
     .albumartclass {
         width: 300px;
     }
-
+    
+    p{
+        font-size: 8pt;
+    }
 }
 
 @media only screen and (max-width: 500px) {
-    /*when width is less than 400*/
+    /*when width is less than 500*/
     .textlogo {
         width: 200px;
         transform: translate(-50%, 80%)
@@ -559,14 +558,14 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 850px) {
-    /*when width is less than 400*/
+    /*when width is less than 850*/
     .socialicon {
         height: 75px;
     }
 }
 
 @media only screen and (max-width: 580px) {
-    /*when width is less than 400*/
+    /*when width is less than 580*/
     .socialicon {
         height: 40px;
         padding: 0px;
@@ -583,6 +582,7 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 600px) {
+    /*when width is less than 600*/
     .small,
     .big,
     input[type=submit] {
