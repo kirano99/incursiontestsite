@@ -15,7 +15,17 @@ $(function () { //OnLoad Function
     console.log('animation');
     console.log('fired');
     
-    $('.slickitem').slick();
+    $(".owl-carousel").owlCarousel({
+        
+    loop:true,
+    margin:10,
+    items:3,
+    autoHeight:true,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true
+    })
+
 
     //for blog next/back pages VVVV
 
