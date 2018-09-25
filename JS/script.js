@@ -42,7 +42,7 @@ $(function () { //OnLoad Function
     //for blog next/back pages VVVV
 
     var $el = $("#wrap > div");
-    var pageSize = 8; //number of elements per page
+    var pageSize = 1; //number of elements per page
 
     $el.slice(0, pageSize).css({
         background: 'black',
