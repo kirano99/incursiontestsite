@@ -23,7 +23,19 @@ $(function () { //OnLoad Function
     autoHeight:true,
     autoplay:true,
     autoplayTimeout:2000,
-    autoplayHoverPause:true
+    autoplayHoverPause:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+            nav:true
+        },
+        750:{
+            items:3,
+            nav:false
+        }
+    }
+        
     });
 
 
