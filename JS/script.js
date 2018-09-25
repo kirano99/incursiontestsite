@@ -24,7 +24,7 @@ $(function () { //OnLoad Function
     autoplay:true,
     autoplayTimeout:2000,
     autoplayHoverPause:true
-    })
+    });
 
 
     //for blog next/back pages VVVV
