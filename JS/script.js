@@ -10,8 +10,7 @@ function init() {
 
 $(function () { //OnLoad Function
     $('#simple-menu').sidr();
-    $(".navclass").fadeIn(5000).removeClass('hidden');
-    $(".textlogo").fadeIn(5000).removeClass('hidden');
+    $(".fadewrap").fadeIn(2000).removeClass('hidden');
     console.log('animation');
     console.log('fired');
     
@@ -38,6 +37,8 @@ $(function () { //OnLoad Function
         
     });
 
+    
+    // V V V V V V V V 
 
     //for blog next/back pages VVVV
 
@@ -102,6 +103,11 @@ $(function () { //OnLoad Function
         $el.slice(slice[0], slice[1]).css('display', 'block');
     }
 });
+
+// ^ ^ ^ ^
+//above code taken from https://stackoverflow.com/questions/32032579/how-turn-a-list-of-items-in-to-a-multi-page-list-with-jquery
+//Answer by Stack Overflow users RRK and Jordan Davis
+
 
 $(window).scroll(function () {
 

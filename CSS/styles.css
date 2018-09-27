@@ -87,6 +87,18 @@ div {
     height: auto;
 }
 
+.button3 {
+
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 20px 46px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-table;
+    height: auto;
+    border: 2px solid #FFFFFF;
+}
+
 .button:hover {
     text-shadow: 1px 0px #555;
     -moz-transform: scale(1.15);
@@ -98,6 +110,13 @@ div {
 .button2:hover {
     text-shadow: 1px 0px #555;
     -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    text-decoration-color: white;
+}
+
+.button3:hover {
+    text-shadow: 1px 0px #555;
     -moz-transform: scale(1.15);
     -webkit-transform: scale(1.15);
     -o-transform: scale(1.15);
@@ -123,7 +142,6 @@ a {
     right: 50%;
     transform: translate(-50%, 50%);
     z-index: 1;
-    display: none;
 }
 
 .textlogo1 {
@@ -331,7 +349,6 @@ h6 {
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     grid-auto-columns: minmax(100%, 100%);
-
 }
 
 .flip img {
@@ -487,6 +504,10 @@ input[type=submit] {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.fadewrap{
+    display: none;
 }
 
 
