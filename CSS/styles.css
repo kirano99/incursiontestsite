@@ -20,7 +20,7 @@ body {
     font-size: 17px
 }
 
-::-webkit-scrollbar {
+::-webkit-scrollbar{
     display: none;
 }
 
@@ -311,7 +311,7 @@ h5 {
 h6 {
     color: white;
     font-size: 14px;
-}á
+}
 
 .topblack {
     height: 130px;
