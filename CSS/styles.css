@@ -214,8 +214,9 @@ h1 {
 
 .Text_One {
     text-align: center;
-    display: table-cell;
+    display: inline-block;
     vertical-align: middle;
+    margin: 0 auto;
 }
 
 #smallertext {
@@ -445,9 +446,9 @@ textarea {
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
-    width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
+    width: 500px;
 
 }
 
@@ -483,6 +484,7 @@ input[type=submit] {
     border-radius: 5px;
     background-color: #000000;
     padding: 70px;
+    display: inline-block;
 }
 
 
@@ -568,6 +570,12 @@ input[type=submit] {
     .pagenum{
         font-size: 20pt;
         transform: translate(-50%, 70%);
+    }
+    
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
     }
 }
 
