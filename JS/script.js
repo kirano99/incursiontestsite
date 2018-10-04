@@ -106,7 +106,7 @@ $(function () { //OnLoad Function
 
 // ^ ^ ^ ^
 //above code taken from https://stackoverflow.com/questions/32032579/how-turn-a-list-of-items-in-to-a-multi-page-list-with-jquery
-//Answer by Stack Overflow users RRK and Jordan Davis
+//Answer by Stack Overflow users "RRK" and "Jordan Davis"
 
 
 $(window).scroll(function () {
