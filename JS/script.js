@@ -18,6 +18,8 @@ $(function () { //OnLoad Function
         
     loop:true,
     margin:10,
+    dots:false,
+    nav:false,
     items:3,
     autoHeight:true,
     autoplay:true,
@@ -27,7 +29,7 @@ $(function () { //OnLoad Function
     responsive:{
         0:{
             items:2,
-            nav:true
+            nav:false
         },
         750:{
             items:3,
