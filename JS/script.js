@@ -45,7 +45,7 @@ $(function () { //OnLoad Function
     //for blog next/back pages VVVV
 
     var $el = $("#wrap > div");
-    var pageSize = 1; //number of elements per page
+    var pageSize = 4; //number of elements per page
 
     $el.slice(0, pageSize).css({
         background: 'black',
@@ -109,7 +109,7 @@ $(function () { //OnLoad Function
 // ^ ^ ^ ^
 //above code taken from https://stackoverflow.com/questions/32032579/how-turn-a-list-of-items-in-to-a-multi-page-list-with-jquery
 //Answer by Stack Overflow users "RRK" and "Jordan Davis"
-
+//Many Thanks
 
 $(window).scroll(function () {
 

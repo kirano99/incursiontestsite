@@ -97,6 +97,9 @@ div {
     display: inline-table;
     height: auto;
     border: 2px solid #FFFFFF;
+    margin-top: 15px;
+    font-family: 'GothamBook' !important;
+    font-size: 25pt;
 }
 
 .button:hover {
