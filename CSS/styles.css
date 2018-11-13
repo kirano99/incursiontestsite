@@ -538,27 +538,38 @@ input[type=submit] {
     color: lightgray;
 }
 
-.owl-carousel .owl-stage {
-  display: flex;
-  align-items: center;
-}
 
-
-
-.iframe-container {
-  overflow: hidden;
-  padding-top: 56.25%;
+.rslides {
   position: relative;
-}
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  }
 
-.iframe-container iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
-}
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
 
 
 /* media Queries... */

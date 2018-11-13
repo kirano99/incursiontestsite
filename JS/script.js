@@ -10,35 +10,14 @@ function init() {
 
 $(function () { //OnLoad Function
     $('#simple-menu').sidr();
+
     $(".fadewrap").fadeIn(2000).removeClass('hidden');
     console.log('animation');
     console.log('fired');
     
-    $(".owl-carousel").owlCarousel({
-        
-    loop:true,
-    margin:10,
-    dots:false,
-    nav:false,
-    items:3,
-    autoHeight:true,
-    autoplay:true,
-    autoplayTimeout:2000,
-    autoplayHoverPause:true,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:2,
-            nav:false
-        },
-        750:{
-            items:3,
-            nav:false
-        }
-    }
-        
+    $(".rslides").responsiveSlides({
+        maxwidth: "1000",
     });
-
     
     // V V V V V V V V 
 

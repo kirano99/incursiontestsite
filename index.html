@@ -11,8 +11,6 @@
     <!-- stylesheets -->
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/sidr.dark.min.css">
-    <link rel="stylesheet" href="CSS/owl.carousel.min.css">
-    <link rel="stylesheet" href="CSS/owl.theme.default.min.css">
     
     <!-- icon -->
     <link rel="icon" href="Images/Icons/icon2.png">
@@ -22,7 +20,9 @@
     <script src="JS/script.js"></script>
     <script src="JS/jquery.sidr.min.js"></script>
     <script src="JS/jquery.flip.min.js"></script>
-    <script src="JS/owl.carousel.min.js"></script>
+    <script src="JS/responsiveslides.min.js"></script>
+    <script src="JS/jquery.flip.min.js"></script>
+
 
     <!-- title -->
     <title>Incursion Recordings</title>
@@ -74,26 +74,66 @@
 
     <!-- Site Video -->
     <div class=fadewrap>
-        
-    <!-- <video class=frontvid autoplay loop muted>
-        <source src="Media/32288209_1640566559352721_1042229687603953664_n.mp4" type="video/mp4" />
-    </video> -->
-        
-    <div class=iframe-container>
-        <iframe id="youtube_video" frameborder="0" allowfullscreen></iframe>
-    </div>
     
     <hr class="hrbot">
     
-    
     <!-- Carousel -->
-    
-    <div class="owl-carousel">
-        <div> <a href="https://www.google.com"> <img src="Images/Covers/Cover1.jpg" class=coverpicture> </a>  </div>
-        <div> <img src="Images/Covers/Cover2.jpg" class=coverpicture> </div> 
-        <div> <img src="Images/Covers/Cover3.jpg" class=coverpicture> </div> 
-    </div>
-    
+        
+        
+        <ul class="rslides">
+            <li><img src="Images/Covers/Cover1.jpg" alt=""></li>
+            <li><img src="Images/Covers/Cover2.jpg" alt=""></li>
+            <li><img src="Images/Covers/Cover3.jpg" alt=""></li>
+        </ul>
+        
+        <section class=scroller_content_one>
+        </section>
+        
+        <hr class="hrbot">
+        
+        
+        <div class=Text_One>
+            <h1>Latest Music</h1>
+        
+        <section class=scroller_content_one>
+            
+            <div class="flip">
+                <div class="front">
+                    <img src="Images/AlbumArt/INC010.jpg" alt="INC010" />
+                </div>
+                <div class="back">
+                    <h3> Invasion Sound : Volume 2 </h3>
+                    <h6> </h6>
+                    <h6>INC010</h6>
+                    <a href="http://incursion.fanlink.to/INC010" class="soon"> Coming Soon! </a>
+                </div>
+            </div> <!-- Invasion Sound Vol 2 -->
+            
+            <div class="flip">
+                <div class="front">
+                    <img src="Images/AlbumArt/INC009.jpg" alt="INC009" />
+                </div>
+                <div class="back">
+                    <h3> MDMA (Remixes) : Lowkey </h3>
+                    <h6> </h6>
+                    <h6>INC009</h6>
+                    <a href="http://incursion.fanlink.to/INC009" class="listen"> Listen Here </a>
+                </div>
+            </div> <!-- MDMA (Remixes) -->
+            
+            <div class="flip">
+                <div class="front">
+                    <img src="Images/AlbumArt/INC008.jpg" alt="INC008" />
+                </div>
+                <div class="back">
+                    <h3> Slow Mo Riddim : Backronym & Ridikruel </h3>
+                    <h6> </h6>
+                    <h6>INC008</h6>
+                    <a href="http://incursion.fanlink.to/INC008" class="listen"> Listen Here </a>
+                </div>
+            </div> <!-- Slow Mo Riddim -->
+        
+        </section>
     </div>
     <!-- Social Icons -->
     
@@ -133,6 +173,8 @@
         <p>© Incursion Recordings 2018</p>
         <p>© Kiran Thomasson 2018</p>
     </section>
+        
+    </div>
 
     </body>
 </html>
