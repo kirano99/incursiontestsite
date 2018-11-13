@@ -20,6 +20,16 @@ body {
     font-size: 17px
 }
 
+body {
+  background: -webkit-radial-gradient(rgb(0,0,0), rgb(0,0,0));
+  background: radial-gradient(rgb(0,0,0), rgb(0,0,0));
+}
+iframe{
+    bottom: 0; left: 0; top: 0; right: 0;
+    margin: auto;
+    position: absolute;
+}
+
 ::-webkit-scrollbar{
     display: none;
 }
