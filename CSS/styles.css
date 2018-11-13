@@ -1,6 +1,6 @@
 body {
     display: block;
-    background-color: black;
+    background-color: black !important;
     overflow: scroll;
     overflow-x: hidden;
     margin-top: 0;
@@ -23,11 +23,6 @@ body {
 body {
   background: -webkit-radial-gradient(rgb(0,0,0), rgb(0,0,0));
   background: radial-gradient(rgb(0,0,0), rgb(0,0,0));
-}
-iframe{
-    bottom: 0; left: 0; top: 0; right: 0;
-    margin: auto;
-    position: absolute;
 }
 
 ::-webkit-scrollbar{
@@ -390,6 +385,19 @@ h6 {
 
 }
 
+.soon {
+    font-size: 25pt;
+    color: white;
+    text-decoration-color: white;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid white;
+    position: fixed;
+    bottom: 10px;
+    left: 7%;
+
+}
+
 .blog {
     margin: 20px auto;
     max-width: 700px;
@@ -533,6 +541,23 @@ input[type=submit] {
 .owl-carousel .owl-stage {
   display: flex;
   align-items: center;
+}
+
+
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
 
 
