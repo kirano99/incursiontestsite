@@ -15,10 +15,6 @@ $(function () { //OnLoad Function
     console.log('animation');
     console.log('fired');
     
-    $(".rslides").responsiveSlides({
-        maxwidth: "1000",
-    });
-    
     // V V V V V V V V 
 
     //for blog next/back pages VVVV
@@ -103,6 +99,12 @@ $(function () {
     $(".flip").flip({
         trigger: 'click'
     });
+});
+
+$(function () {
+    $(".rslides").responsiveSlides({
+        maxwidth: "1000",
+    })
 });
 
 var channelID = "UCAd2wGoUdg-Mnrpr9nRKxlw";
