@@ -571,6 +571,11 @@ input[type=submit] {
   border: 0;
   }
 
+div.flip { 
+    cursor: pointer;
+    }
+
+
 
 /* media Queries... */
 
